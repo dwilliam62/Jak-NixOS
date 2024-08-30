@@ -33,9 +33,8 @@ if [ -z "${DISPLAY}" ] && [ "${XDG_VTNR}" -eq 1 ]; then
        Hyprland 
 fi
 ```
+![Jak-screenshot](https://github.com/user-attachments/assets/17b900ed-ba68-4a72-8c39-b5269186f685)
 
-
-System Specs
-- Asus G15 - AMD CPU + Nvidia Discreet GPU
-- HP-Mini PC - Intel 8500T igpu only
-- Desktop - Full AMD
+sD
+ 
+ 
