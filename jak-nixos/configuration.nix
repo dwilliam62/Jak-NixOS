@@ -146,6 +146,8 @@
     wl-clipboard
     wlogout
     yad
+    google-chrome
+
 
     #waybar  # if wanted experimental next line
     #(pkgs.waybar.overrideAttrs (oldAttrs: { mesonFlags = oldAttrs.mesonFlags ++ [ "-Dexperimental=true" ];}))
@@ -164,7 +166,7 @@
 	xwayland.enable = true;
 
 	hyprlock.enable = true;
-	firefox.enable = true;
+	firefox.enable = false;
 	git.enable = true;
 
 	thunar.enable = true;
