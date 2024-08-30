@@ -35,6 +35,13 @@ fi
 ```
 ![Jak-screenshot](https://github.com/user-attachments/assets/17b900ed-ba68-4a72-8c39-b5269186f685)
 
+![jak-screenshot2](https://github.com/user-attachments/assets/6872931b-add4-439a-9b0b-88e924e02adf)
+
+![Jak-screenshot3](https://github.com/user-attachments/assets/2de0d3ef-61ed-4d6a-be3c-d8144638cfc0)
+
+
+
+
 sD
  
  
