@@ -83,6 +83,10 @@
     wget
     xdg-user-dirs
 	  xdg-utils
+    gh
+    rustup
+    gcc
+
 
 
     # I normally have and use
