@@ -2,23 +2,20 @@
 
 -- This was derived from Jak Koolit's NIXOS config.  https://github.com/Jakoolit 
   It's a very simple hyprland config intended to use his Hyprland Dotfiles 
+   
   
-  `git clone --depth=1 https://github.com/JaKoolIt/Hyprland-Dots `
-  
-  Then use the `copy.sh` script to install his configuration to the ~/.config directory 
-
   My changes: 
-    - I removed firefox for Google Chrome
+   ``` - I removed firefox for Google Chrome
     - Added the NIX `nh` util for rebuilds and upgrades 
-      -- Created aliases `rebuild` and `update` using NH.  
-      -- Added ~/.zshrc-personal for your local aliases and functions
-         ~/.zshrc will source that file if found 
+    - Created aliases `rebuild` and `update` using NH.  
+    - Added ~/.zshrc-personal for your local aliases and functions
+            ~/.zshrc will source that file if found ```
     
 
 > [!NOTE]
-> Home Manager not used. A flake and configuration.nix
+> Home Manager is not used.
 
-#### notes on my Nixos-Hyprland
+#### notes on Jak's Nixos-Hyprland
 - GTK themes are install manually. Here is the [`LINK`](https://github.com/JaKooLit/GTK-themes-icons)
 - Hyprland-Dots [`LINK`](https://github.com/JaKooLit/Hyprland-Dots)
 - Installing of Hyprland-Dots how to [`LINK`](https://github.com/JaKooLit/Hyprland-Dots?tab=readme-ov-file#-copying--installation--update-instructions-)
