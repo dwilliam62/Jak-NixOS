@@ -1,7 +1,22 @@
-### My Nixos Configs
+### My Nixos Configs   
+
+-- This was derived from Jak Koolit's NIXOS config.  https://github.com/Jakoolit 
+  It's a very simple hyprland config intended to use his Hyprland Dotfiles 
+  
+  `git clone --depth=1 https://github.com/JaKoolIt/Hyprland-Dots `
+  
+  Then use the `copy.sh` script to install his configuration to the ~/.config directory 
+
+  My changes: 
+    - I removed firefox for Google Chrome
+    - Added the NIX `nh` util for rebuilds and upgrades 
+      -- Created aliases `rebuild` and `update` using NH.  
+      -- Added ~/.zshrc-personal for your local aliases and functions
+         ~/.zshrc will source that file if found 
+    
 
 > [!NOTE]
-> I dont use Home Manager
+> Home Manager not used. A flake and configuration.nix
 
 #### notes on my Nixos-Hyprland
 - GTK themes are install manually. Here is the [`LINK`](https://github.com/JaKooLit/GTK-themes-icons)
@@ -11,7 +26,7 @@
 
 
 > [!NOTE]
-> I dont use any Log-in Manager. I do utilize ~/.zprofile for auto start for Hyprland
+> There is not login manager, like SDDM.  This config uses ~/.zprofile for auto start for Hyprland
 - ~/.zprofile
 ```
 if [ -z "${DISPLAY}" ] && [ "${XDG_VTNR}" -eq 1 ]; then
