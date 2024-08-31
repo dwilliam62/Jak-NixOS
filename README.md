@@ -5,11 +5,9 @@
    
   
   My changes: 
-   ``` - I removed firefox for Google Chrome
-    - Added the NIX `nh` util for rebuilds and upgrades 
-    - Created aliases `rebuild` and `update` using NH.  
-    - Added ~/.zshrc-personal for your local aliases and functions
-            ~/.zshrc will source that file if found ```
+     I removed firefox for Google Chrome Added the NIX `nh` util for rebuilds and upgrades 
+    Created aliases `rebuild` and `update` using NH. - Added ~/.zshrc-personal for your local aliases and functions
+    ~/.zshrc will source that file if found
     
 
 > [!NOTE]
