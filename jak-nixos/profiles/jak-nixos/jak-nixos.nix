@@ -1,4 +1,4 @@
-# Help is available in the configuration.nix(5) man page
+#tr Help is available in the configuration.nix(5) man page
 # and in the NixOS manual (accessible by running `nixos-help`).
 
 { config, pkgs, lib, inputs, system,... }:
@@ -69,6 +69,14 @@
     tmux
     zoxide
     nh
+    wallust
+    yazi
+    glances
+    bottom
+    mission-center
+    lazygit
+    duf
+
 
     #nvtopPackages.intel # requires unstable channel
   ];

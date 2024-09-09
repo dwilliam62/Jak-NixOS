@@ -15,9 +15,6 @@
     [ # Include the results of the hardware scan.
       ./profiles/jak-nixos/hardware-configuration.nix
       ./profiles/jak-nixos/jak-nixos.nix
-      #./asus-g15.nix
-      #./qemu-kvm.nix
-      #./Desktop.nix
     ];
 
   # Use the systemd-boot EFI boot loader.
